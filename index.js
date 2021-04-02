@@ -29,7 +29,7 @@ module.exports.plugins = [
   require("remark-lint-no-file-name-outer-dashes"),
   require("remark-lint-no-heading-like-paragraph"),
   require("remark-lint-no-heading-punctuation"),
-  require("remark-lint-no-missing-blank-lines"),
+  [require("remark-lint-no-missing-blank-lines"), { exceptTightLists: true }],
   require("remark-lint-no-multiple-toplevel-headings"),
   require("remark-lint-no-paragraph-content-indent"),
   require("remark-lint-no-reference-like-url"),
