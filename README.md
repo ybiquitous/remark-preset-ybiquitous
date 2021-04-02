@@ -1,3 +1,5 @@
+[![npm](https://img.shields.io/npm/v/remark-preset-ybiquitous?style=flat-square)](https://www.npmjs.com/package/remark-preset-ybiquitous)
+
 # remark-preset-ybiquitous
 
 This package is a personal [remark](https://remark.js.org) preset for [ybiquitous](https://github.com/ybiquitous).
