@@ -7,6 +7,11 @@
   "repository": "ybiquitous/remark-preset-ybiquitous",
   "main": "index.js",
   "files": [],
+  "keywords": [
+    "remark",
+    "remark-preset",
+    "markdown"
+  ],
   "dependencies": {
     "remark-frontmatter": "^3.0.0",
     "remark-gfm": "^1.0.0",
