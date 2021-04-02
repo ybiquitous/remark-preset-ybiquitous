@@ -1,0 +1,74 @@
+{
+  "name": "remark-preset-ybiquitous",
+  "version": "0.0.1",
+  "description": "Remark preset for ybiquitous",
+  "author": "Masafumi Koba",
+  "license": "MIT",
+  "repository": "ybiquitous/remark-preset-ybiquitous",
+  "main": "index.js",
+  "files": [],
+  "dependencies": {
+    "remark-lint-code-block-syntax": "^0.2.1",
+    "remark-lint-no-heading-punctuation": "^2.0.1",
+    "remark-preset-lint-recommended": "^5.0.0",
+    "remark-validate-links": "^10.0.4"
+  },
+  "devDependencies": {
+    "eslint-config-ybiquitous": "^13.1.0",
+    "ybiq": "^12.1.0"
+  },
+  "scripts": {
+    "test": "remark .",
+    "test:watch": "exit 1",
+    "test:coverage": "exit 1",
+    "lint:js": "eslint .",
+    "lint:js:fix": "npm run lint:js -- --fix",
+    "lint:md": "remark . --frail",
+    "lint:md:fix": "remark . --output",
+    "lint": "npm-run-all --print-label --parallel lint:* prettier:check",
+    "prettier": "prettier --ignore-path .gitignore .",
+    "prettier:check": "npm run prettier -- --check",
+    "prettier:write": "npm run prettier -- --write",
+    "format": "npm-run-all --print-label --parallel lint:*:fix prettier:write",
+    "clean": "git clean -dx --force --exclude=node_modules --exclude=.husky",
+    "prerelease": "git switch main && git pull && npm ci && npm run clean && npm test && npm run lint && npm run clean",
+    "release": "standard-version",
+    "release:dry-run": "standard-version --dry-run",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*.{js,jsx,mjs,ts,tsx}": "eslint --fix",
+    "!(*.snap)": "prettier --write",
+    "!(CHANGELOG).md": "remark --frail"
+  },
+  "standard-version": {
+    "sign": true,
+    "scripts": {
+      "postchangelog": "prettier --write CHANGELOG.md"
+    }
+  },
+  "remarkConfig": {
+    "plugins": [
+      "./index.js"
+    ]
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ],
+    "rules": {
+      "body-max-line-length": [
+        1,
+        "always",
+        100
+      ]
+    }
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": [
+      "ybiquitous/node"
+    ],
+    "reportUnusedDisableDirectives": true
+  }
+}
