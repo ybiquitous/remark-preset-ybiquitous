@@ -48,8 +48,8 @@
     "remark-validate-links": "^10.0.4"
   },
   "devDependencies": {
-    "eslint-config-ybiquitous": "^13.1.0",
-    "ybiq": "^12.1.0"
+    "eslint-config-ybiquitous": "^13.2.0",
+    "ybiq": "^12.4.0"
   },
   "scripts": {
     "test": "remark .",
@@ -103,9 +103,10 @@
     "extends": [
       "ybiquitous/node"
     ],
-    "reportUnusedDisableDirectives": true,
-    "rules": {
-      "import/max-dependencies": "off"
-    }
+    "ignorePatterns": [
+      "coverage",
+      "dist"
+    ],
+    "reportUnusedDisableDirectives": true
   }
 }

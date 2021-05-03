@@ -43,5 +43,5 @@ module.exports.plugins = [
   // Plugin
   require("remark-frontmatter"),
   require("remark-gfm"),
-  require("remark-validate-links"),
+  require("remark-validate-links"), // eslint-disable-line import/max-dependencies
 ];
