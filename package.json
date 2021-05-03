@@ -73,7 +73,7 @@
     "prettier:write": "npm run prettier -- --write",
     "format": "npm-run-all --print-label --parallel lint:*:fix prettier:write",
     "clean": "git clean -dx --force --exclude=node_modules --exclude=.husky",
-    "prerelease": "git switch main && git pull && npm install && npm run clean && npm test && npm run lint && npm run clean",
+    "prerelease": "git switch main && git pull && npm install && npm run clean && npm run build && npm test && npm run lint && npm run clean",
     "release": "standard-version",
     "release:dry-run": "standard-version --dry-run",
     "prepare": "husky install && npm run build",
