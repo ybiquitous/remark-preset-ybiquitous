@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.4](https://github.com/ybiquitous/remark-preset-ybiquitous/compare/v0.0.3...v0.0.4) (2021-05-03)
+
+### Features
+
+- support ESM ([#7](https://github.com/ybiquitous/remark-preset-ybiquitous/issues/7)) ([8a9530d](https://github.com/ybiquitous/remark-preset-ybiquitous/commit/8a9530dfb8dc1dbf366c2e8aefd23324eb719358))
+
 ### [0.0.3](https://github.com/ybiquitous/remark-preset-ybiquitous/compare/v0.0.2...v0.0.3) (2021-04-02)
 
 ### Features
