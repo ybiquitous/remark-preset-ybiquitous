@@ -105,3 +105,6 @@ dist
 
 # Avoid frequent updates
 package-lock.json
+
+# Transpiled CommonJS
+*.cjs
