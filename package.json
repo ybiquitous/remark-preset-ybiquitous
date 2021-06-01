@@ -55,7 +55,7 @@
     "remark-validate-links": "^10.0.4"
   },
   "devDependencies": {
-    "eslint-config-ybiquitous": "^13.2.0",
+    "eslint-config-ybiquitous": "^14.0.1",
     "rollup": "^2.46.0",
     "ybiq": "^13.0.0"
   },
