@@ -1,4 +1,3 @@
-// eslint-disable-next-line import/prefer-default-export
 export const plugins = [
   // Preset
   "remark-preset-lint-recommended",
