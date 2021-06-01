@@ -57,7 +57,7 @@
   "devDependencies": {
     "eslint-config-ybiquitous": "^13.2.0",
     "rollup": "^2.46.0",
-    "ybiq": "^12.4.0"
+    "ybiq": "^13.0.0"
   },
   "scripts": {
     "test": "remark .",
