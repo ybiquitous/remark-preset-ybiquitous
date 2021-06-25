@@ -36,6 +36,7 @@ export const plugins = [
   "remark-lint-no-tabs",
   "remark-lint-no-unneeded-full-reference-image",
   "remark-lint-no-unneeded-full-reference-link",
+  ["remark-lint-strikethrough-marker", "~~"],
   "remark-lint-table-pipes",
 
   // Plugin
