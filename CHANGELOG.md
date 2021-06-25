@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.5](https://github.com/ybiquitous/remark-preset-ybiquitous/compare/v0.0.4...v0.0.5) (2021-06-25)
+
+### Features
+
+- add `remark-lint-strikethrough-marker` ([#12](https://github.com/ybiquitous/remark-preset-ybiquitous/issues/12)) ([0eb0d07](https://github.com/ybiquitous/remark-preset-ybiquitous/commit/0eb0d07e73d1eb36e6a91ad80d50722348ef4ef2))
+
 ### [0.0.4](https://github.com/ybiquitous/remark-preset-ybiquitous/compare/v0.0.3...v0.0.4) (2021-05-03)
 
 ### Features
