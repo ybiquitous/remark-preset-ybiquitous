@@ -47,7 +47,7 @@
     "remark-lint-no-reference-like-url": "^2.0.1",
     "remark-lint-no-shell-dollars": "^2.0.2",
     "remark-lint-no-table-indentation": "^3.0.0",
-    "remark-lint-no-tabs": "^2.0.1",
+    "remark-lint-no-tabs": "^3.0.0",
     "remark-lint-no-unneeded-full-reference-image": "^2.0.1",
     "remark-lint-no-unneeded-full-reference-link": "^2.0.1",
     "remark-lint-strikethrough-marker": "^1.0.0",
