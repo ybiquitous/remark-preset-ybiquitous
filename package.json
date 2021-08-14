@@ -62,9 +62,9 @@
   },
   "scripts": {
     "test": "remark .",
-    "test:watch": "exit 1",
+    "test:watch": "npm run test -- --watch",
     "test:coverage": "exit 1",
-    "lint:js": "eslint . --ignore-path .gitignore",
+    "lint:js": "eslint --cache --ignore-path .gitignore .",
     "lint:js:fix": "npm run lint:js -- --fix",
     "lint:md": "remark . --frail",
     "lint:md:fix": "remark . --output",
@@ -81,7 +81,7 @@
     "build": "rollup index.js --file=index.cjs --format=cjs --no-esModule"
   },
   "lint-staged": {
-    "*.{js,jsx,mjs,ts,tsx}": "eslint --fix",
+    "*.{js,jsx,mjs,ts,tsx}": "eslint --cache --fix",
     "!(*.snap)": "prettier --write",
     "!(CHANGELOG).md": "remark --frail"
   },
@@ -115,7 +115,8 @@
     ],
     "ignorePatterns": [
       "coverage",
-      "dist"
+      "dist",
+      "tmp"
     ],
     "reportUnusedDisableDirectives": true
   }
