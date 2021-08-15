@@ -6,12 +6,18 @@
   "license": "MIT",
   "repository": "ybiquitous/remark-preset-ybiquitous",
   "type": "module",
-  "main": "index.js",
+  "exports": "./index.js",
+  "files": [
+    "index.js"
+  ],
   "keywords": [
     "remark",
     "remark-preset",
     "markdown"
   ],
+  "engines": {
+    "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+  },
   "dependencies": {
     "remark-frontmatter": "^4.0.0",
     "remark-gfm": "^2.0.0",
