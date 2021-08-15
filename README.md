@@ -6,12 +6,14 @@ This package is a personal [remark](https://remark.js.org) preset for [ybiquitou
 
 It includes some lint rules, plugins, and so on. See [`index.js`](./index.js) for details.
 
+Note: This package supports only **ESM**. Node.js 12.20.0+ and remark 14+ required.
+
 ## Usage
 
 First, install the package:
 
-```console
-$ npm install remark-preset-ybiquitous
+```shell
+npm install remark-preset-ybiquitous
 ```
 
 Next, add it to your remark configuration (e.g. `.remarkrc`):
