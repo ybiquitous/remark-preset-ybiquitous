@@ -112,6 +112,12 @@
     ],
     "reportUnusedDisableDirectives": true,
     "rules": {
+      "import/max-dependencies": [
+        "warn",
+        {
+          "max": 50
+        }
+      ],
       "import/no-anonymous-default-export": [
         "error",
         {
