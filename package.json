@@ -6,7 +6,10 @@
   "license": "MIT",
   "repository": "ybiquitous/remark-preset-ybiquitous",
   "type": "module",
-  "main": "index.js",
+  "exports": "./index.js",
+  "files": [
+    "index.js"
+  ],
   "keywords": [
     "remark",
     "remark-preset",
