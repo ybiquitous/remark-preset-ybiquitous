@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.2](https://github.com/ybiquitous/remark-preset-ybiquitous/compare/v0.1.1...v0.1.2) (2021-11-02)
+
+### Features
+
+- **deps:** bump remark-gfm from 2.0.0 to 3.0.0 ([#72](https://github.com/ybiquitous/remark-preset-ybiquitous/issues/72)) ([a31c2ff](https://github.com/ybiquitous/remark-preset-ybiquitous/commit/a31c2ffcc7b7214e969f48093bef93700cf21947))
+
 ### [0.1.1](https://github.com/ybiquitous/remark-preset-ybiquitous/compare/v0.1.0...v0.1.1) (2021-09-02)
 
 ### Bug Fixes
