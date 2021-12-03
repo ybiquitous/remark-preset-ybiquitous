@@ -55,7 +55,7 @@
     "remark-validate-links": "^11.0.2"
   },
   "devDependencies": {
-    "eslint-config-ybiquitous": "^14.3.0",
+    "eslint-config-ybiquitous": "^15.0.0",
     "remark-cli": "^10.0.1",
     "ybiq": "^13.7.1"
   },
