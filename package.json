@@ -23,7 +23,7 @@
     "remark-gfm": "^3.0.1",
     "remark-lint-code-block-syntax": "^0.3.0",
     "remark-lint-file-extension": "^2.1.0",
-    "remark-lint-final-definition": "^3.1.0",
+    "remark-lint-final-definition": "^3.1.1",
     "remark-lint-final-newline": "^2.1.0",
     "remark-lint-first-heading-level": "^3.1.0",
     "remark-lint-heading-increment": "^3.1.0",
