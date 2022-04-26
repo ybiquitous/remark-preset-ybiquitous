@@ -21,7 +21,7 @@
   "dependencies": {
     "remark-frontmatter": "^4.0.1",
     "remark-gfm": "^3.0.1",
-    "remark-lint-code-block-syntax": "^0.4.0",
+    "remark-lint-code-block-syntax": "^0.5.0",
     "remark-lint-file-extension": "^2.1.1",
     "remark-lint-final-definition": "^3.1.1",
     "remark-lint-final-newline": "^2.1.1",
