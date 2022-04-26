@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.1](https://github.com/ybiquitous/remark-preset-ybiquitous/compare/v0.2.0...v0.2.1) (2022-04-26)
+
+### Features
+
+- **deps:** bump remark-lint-code-block-syntax from 0.4.0 to 0.5.0 ([#121](https://github.com/ybiquitous/remark-preset-ybiquitous/issues/121)) ([dd0002b](https://github.com/ybiquitous/remark-preset-ybiquitous/commit/dd0002b864553caa59492fbd9ed77fe6ee229968))
+
 ## [0.2.0](https://github.com/ybiquitous/remark-preset-ybiquitous/compare/v0.1.2...v0.2.0) (2022-04-23)
 
 ### ⚠ BREAKING CHANGES
