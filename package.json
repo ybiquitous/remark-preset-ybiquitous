@@ -57,7 +57,7 @@
   "devDependencies": {
     "eslint-config-ybiquitous": "^16.0.0",
     "remark-cli": "^10.0.1",
-    "ybiq": "^14.3.0"
+    "ybiq": "^15.2.0"
   },
   "scripts": {
     "pretest": "npm run lint",
@@ -72,7 +72,7 @@
     "lint:styles:fix": "npm run prettier -- --write",
     "lint": "npm-run-all --print-label --parallel lint:*",
     "format": "npm-run-all --print-label --parallel lint:*:fix",
-    "prettier": "prettier --ignore-path .gitignore .",
+    "prettier": "prettier --cache --ignore-path .gitignore .",
     "clean": "git clean -dx --force --exclude=node_modules --exclude=.husky",
     "prerelease": "git switch main && git pull && npm ci && npm run clean && npm test && npm run clean",
     "release": "standard-version",
@@ -81,7 +81,7 @@
   },
   "lint-staged": {
     "*.{js,jsx,cjs,mjs,ts,tsx}": "eslint --cache --fix",
-    "!(*.snap)": "prettier --write",
+    "!(*.snap)": "prettier --cache --write",
     "!(CHANGELOG).md": "remark --frail"
   },
   "standard-version": {
