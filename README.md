@@ -1,4 +1,5 @@
 [![npm](https://img.shields.io/npm/v/remark-preset-ybiquitous?style=flat-square)](https://www.npmjs.com/package/remark-preset-ybiquitous)
+[![node](https://img.shields.io/node/v/remark-preset-ybiquitous.svg?style=flat-square)](https://github.com/ybiquitousy/remark-preset-ybiquitous)
 
 # remark-preset-ybiquitous
 
