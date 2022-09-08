@@ -70,8 +70,9 @@
     "lint:md:fix": "remark . --output",
     "lint:styles": "npm run prettier -- --check",
     "lint:styles:fix": "npm run prettier -- --write",
-    "lint": "npm-run-all --print-label --parallel lint:*",
-    "format": "npm-run-all --print-label --parallel lint:*:fix",
+    "lint:commit": "commitlint --from HEAD~10",
+    "lint": "npm-run-all --print-label --silent --parallel lint:*",
+    "format": "npm-run-all --print-label --silent --parallel lint:*:fix",
     "prettier": "prettier --cache --ignore-path .gitignore .",
     "clean": "git clean -dx --force --exclude=node_modules --exclude=.husky",
     "prerelease": "git switch main && git pull && npm ci && npm run clean && npm test && npm run clean",
@@ -103,7 +104,7 @@
       "body-max-line-length": [
         1,
         "always",
-        100
+        200
       ]
     }
   },
