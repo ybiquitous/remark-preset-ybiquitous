@@ -57,7 +57,7 @@
   "devDependencies": {
     "eslint-config-ybiquitous": "^16.2.0",
     "remark-cli": "^11.0.0",
-    "ybiq": "^15.6.0"
+    "ybiq": "^16.0.0"
   },
   "scripts": {
     "pretest": "npm run lint",
