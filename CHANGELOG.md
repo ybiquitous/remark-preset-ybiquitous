@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.4.0](https://github.com/ybiquitous/remark-preset-ybiquitous/compare/v0.3.1...v0.4.0) (2023-09-01)
+
+### ⚠ BREAKING CHANGES
+
+- drop Node.js v14 support (#170)
+
+### Features
+
+- drop Node.js v14 support ([#170](https://github.com/ybiquitous/remark-preset-ybiquitous/issues/170)) ([79c5217](https://github.com/ybiquitous/remark-preset-ybiquitous/commit/79c5217af3208faee30567fccee2ab6fd9c22a56))
+
 ### [0.3.1](https://github.com/ybiquitous/remark-preset-ybiquitous/compare/v0.3.0...v0.3.1) (2022-09-08)
 
 ### Bug Fixes
