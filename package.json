@@ -16,7 +16,7 @@
     "markdown"
   ],
   "engines": {
-    "node": "^14.13.1 || >=16.0.0"
+    "node": ">=16.0.0"
   },
   "dependencies": {
     "remark-frontmatter": "^4.0.1",
