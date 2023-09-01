@@ -5,6 +5,11 @@ updates:
     schedule:
       interval: monthly
     versioning-strategy: increase
+    open-pull-requests-limit: 20
+    groups:
+      development-dependencies:
+        dependency-type: development
+        exclude-patterns: ["remark-*"]
   - package-ecosystem: github-actions
     directory: "/"
     schedule:
