@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.4.2](https://github.com/ybiquitous/remark-preset-ybiquitous/compare/v0.4.1...v0.4.2) (2023-10-02)
+
+### Features
+
+- **deps:** bump remark-validate-links from 12.1.1 to 13.0.0 ([#189](https://github.com/ybiquitous/remark-preset-ybiquitous/issues/189)) ([ef79580](https://github.com/ybiquitous/remark-preset-ybiquitous/commit/ef79580888d872903634be3b9c0100e293ae3601))
+
 ### [0.4.1](https://github.com/ybiquitous/remark-preset-ybiquitous/compare/v0.4.0...v0.4.1) (2023-09-25)
 
 ### Features
