@@ -56,7 +56,7 @@
   },
   "devDependencies": {
     "eslint-config-ybiquitous": "^20.0.0",
-    "remark-cli": "^12.0.0",
+    "remark-cli": "^12.0.1",
     "ybiq": "^17.2.0"
   },
   "scripts": {
