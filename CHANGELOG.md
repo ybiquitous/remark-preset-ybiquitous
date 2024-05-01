@@ -2,6 +2,39 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.4.3](https://github.com/ybiquitous/remark-preset-ybiquitous/compare/v0.4.2...v0.4.3) (2024-05-01)
+
+### Features
+
+- **deps:** bump remark-lint-file-extension from 2.1.2 to 3.0.0 ([#204](https://github.com/ybiquitous/remark-preset-ybiquitous/issues/204)) ([b0d8c0d](https://github.com/ybiquitous/remark-preset-ybiquitous/commit/b0d8c0d6e3ec3d5a7a9be7c959bfd332fd7f5261))
+- **deps:** bump remark-lint-final-definition from 3.1.2 to 4.0.1 ([#222](https://github.com/ybiquitous/remark-preset-ybiquitous/issues/222)) ([8173556](https://github.com/ybiquitous/remark-preset-ybiquitous/commit/81735563e0f3234ca09aa02fd88b528ad31a3efe))
+- **deps:** bump remark-lint-final-newline from 2.1.2 to 3.0.0 ([#199](https://github.com/ybiquitous/remark-preset-ybiquitous/issues/199)) ([cadd341](https://github.com/ybiquitous/remark-preset-ybiquitous/commit/cadd34182b25e8a526d3cab62a1bc67f4e7af190))
+- **deps:** bump remark-lint-first-heading-level from 3.1.2 to 4.0.0 ([#230](https://github.com/ybiquitous/remark-preset-ybiquitous/issues/230)) ([c1a6f0e](https://github.com/ybiquitous/remark-preset-ybiquitous/commit/c1a6f0ec13adab36fd315cc3ed72dc30e86a97a8))
+- **deps:** bump remark-lint-heading-increment from 3.1.2 to 4.0.0 ([#223](https://github.com/ybiquitous/remark-preset-ybiquitous/issues/223)) ([e28bc9d](https://github.com/ybiquitous/remark-preset-ybiquitous/commit/e28bc9dab9da74140d9fbee2fdb678e05c69dbf8))
+- **deps:** bump remark-lint-linebreak-style from 3.1.2 to 4.0.0 ([#227](https://github.com/ybiquitous/remark-preset-ybiquitous/issues/227)) ([ad89fae](https://github.com/ybiquitous/remark-preset-ybiquitous/commit/ad89fae1885d274933c2522696592a50d627701d))
+- **deps:** bump remark-lint-no-duplicate-headings from 3.1.2 to 4.0.0 ([#225](https://github.com/ybiquitous/remark-preset-ybiquitous/issues/225)) ([eb7ebb5](https://github.com/ybiquitous/remark-preset-ybiquitous/commit/eb7ebb540a639734fa33b3cf2d6f7abd2ec1665a))
+- **deps:** bump remark-lint-no-emphasis-as-heading from 3.1.2 to 4.0.0 ([#210](https://github.com/ybiquitous/remark-preset-ybiquitous/issues/210)) ([dd26229](https://github.com/ybiquitous/remark-preset-ybiquitous/commit/dd26229c118987e99d244183958334e228e306f9))
+- **deps:** bump remark-lint-no-empty-url from 3.1.2 to 4.0.0 ([#207](https://github.com/ybiquitous/remark-preset-ybiquitous/issues/207)) ([d04abdc](https://github.com/ybiquitous/remark-preset-ybiquitous/commit/d04abdccead14dc01c7ab54bd3a6b726e161be81))
+- **deps:** bump remark-lint-no-file-name-articles from 2.1.2 to 3.0.0 ([#213](https://github.com/ybiquitous/remark-preset-ybiquitous/issues/213)) ([164126e](https://github.com/ybiquitous/remark-preset-ybiquitous/commit/164126e9d5a028a0beb6d7159dc84875c3a4154f))
+- **deps:** bump remark-lint-no-file-name-consecutive-dashes from 2.1.2 to 3.0.0 ([#200](https://github.com/ybiquitous/remark-preset-ybiquitous/issues/200)) ([77b7776](https://github.com/ybiquitous/remark-preset-ybiquitous/commit/77b7776645eff44f8d43ad8400640daa3d0f8461))
+- **deps:** bump remark-lint-no-file-name-irregular-characters from 2.1.2 to 3.0.0 ([#212](https://github.com/ybiquitous/remark-preset-ybiquitous/issues/212)) ([d7c027f](https://github.com/ybiquitous/remark-preset-ybiquitous/commit/d7c027f00c899c92de0771c9768e7530bb075477))
+- **deps:** bump remark-lint-no-file-name-mixed-case from 2.1.2 to 3.0.0 ([#211](https://github.com/ybiquitous/remark-preset-ybiquitous/issues/211)) ([e3dc98f](https://github.com/ybiquitous/remark-preset-ybiquitous/commit/e3dc98fcc78b0e040103c81bf9a52ef6f3fb2047))
+- **deps:** bump remark-lint-no-file-name-outer-dashes from 2.1.2 to 3.0.0 ([#214](https://github.com/ybiquitous/remark-preset-ybiquitous/issues/214)) ([843b148](https://github.com/ybiquitous/remark-preset-ybiquitous/commit/843b148f7cce2b99797c0889f3398ab907a5f212))
+- **deps:** bump remark-lint-no-heading-like-paragraph from 3.1.2 to 4.0.0 ([#215](https://github.com/ybiquitous/remark-preset-ybiquitous/issues/215)) ([75c0aaf](https://github.com/ybiquitous/remark-preset-ybiquitous/commit/75c0aaf00f1f1c8a0e6ab19674db71ebbe81cbe8))
+- **deps:** bump remark-lint-no-heading-punctuation from 3.1.2 to 4.0.0 ([#201](https://github.com/ybiquitous/remark-preset-ybiquitous/issues/201)) ([7d75391](https://github.com/ybiquitous/remark-preset-ybiquitous/commit/7d75391c14c9d76c8f55e426199daac77692c64b))
+- **deps:** bump remark-lint-no-missing-blank-lines from 3.1.2 to 4.0.0 ([#216](https://github.com/ybiquitous/remark-preset-ybiquitous/issues/216)) ([cb598ce](https://github.com/ybiquitous/remark-preset-ybiquitous/commit/cb598ce018629242bcf902151a0881a268c8d5e6))
+- **deps:** bump remark-lint-no-multiple-toplevel-headings from 3.1.2 to 4.0.0 ([#209](https://github.com/ybiquitous/remark-preset-ybiquitous/issues/209)) ([15e7f10](https://github.com/ybiquitous/remark-preset-ybiquitous/commit/15e7f10edc9bb17eb2495e0f32d4db2f33e1d289))
+- **deps:** bump remark-lint-no-paragraph-content-indent from 4.1.2 to 5.0.0 ([#224](https://github.com/ybiquitous/remark-preset-ybiquitous/issues/224)) ([4e4e6bb](https://github.com/ybiquitous/remark-preset-ybiquitous/commit/4e4e6bbe1d6e28585bccc1c8f16d28efbe1fa4de))
+- **deps:** bump remark-lint-no-reference-like-url from 3.1.2 to 4.0.0 ([#205](https://github.com/ybiquitous/remark-preset-ybiquitous/issues/205)) ([1adf3c3](https://github.com/ybiquitous/remark-preset-ybiquitous/commit/1adf3c321359f6b27c5dd7274fbcde92225b6b64))
+- **deps:** bump remark-lint-no-shell-dollars from 3.1.2 to 4.0.0 ([#203](https://github.com/ybiquitous/remark-preset-ybiquitous/issues/203)) ([dce657c](https://github.com/ybiquitous/remark-preset-ybiquitous/commit/dce657cba80ff39bf38832842820163cb3c9a5fa))
+- **deps:** bump remark-lint-no-table-indentation from 4.1.2 to 5.0.0 ([#226](https://github.com/ybiquitous/remark-preset-ybiquitous/issues/226)) ([aa2f666](https://github.com/ybiquitous/remark-preset-ybiquitous/commit/aa2f6664baf999de9cb8e2f98e0158c0d90d3470))
+- **deps:** bump remark-lint-no-tabs from 3.1.2 to 4.0.0 ([#217](https://github.com/ybiquitous/remark-preset-ybiquitous/issues/217)) ([4e93b41](https://github.com/ybiquitous/remark-preset-ybiquitous/commit/4e93b41551f2a8caed89520181a18858457ab9e4))
+- **deps:** bump remark-lint-no-unneeded-full-reference-image from 3.1.2 to 4.0.0 ([#206](https://github.com/ybiquitous/remark-preset-ybiquitous/issues/206)) ([2011c0f](https://github.com/ybiquitous/remark-preset-ybiquitous/commit/2011c0f27901b89ba54fc9a2705f580ded1c81e8))
+- **deps:** bump remark-lint-no-unneeded-full-reference-link from 3.1.2 to 4.0.0 ([#202](https://github.com/ybiquitous/remark-preset-ybiquitous/issues/202)) ([d1b9931](https://github.com/ybiquitous/remark-preset-ybiquitous/commit/d1b99318ce1300dce4175b9c849481c84d41649c))
+- **deps:** bump remark-lint-strikethrough-marker from 2.1.2 to 3.0.0 ([#221](https://github.com/ybiquitous/remark-preset-ybiquitous/issues/221)) ([79cb39f](https://github.com/ybiquitous/remark-preset-ybiquitous/commit/79cb39ffa80aa7b698a40e18f2253ead56d4aaaf))
+- **deps:** bump remark-lint-table-pipes from 4.1.2 to 5.0.0 ([#218](https://github.com/ybiquitous/remark-preset-ybiquitous/issues/218)) ([ab419b5](https://github.com/ybiquitous/remark-preset-ybiquitous/commit/ab419b55e910b32a7738656a2cce5fc88ffdb319))
+- **deps:** bump remark-preset-lint-recommended from 6.1.3 to 7.0.0 ([#208](https://github.com/ybiquitous/remark-preset-ybiquitous/issues/208)) ([8fde2f4](https://github.com/ybiquitous/remark-preset-ybiquitous/commit/8fde2f4f7283a07e710110f90958a69fd7429029))
+
 ### [0.4.2](https://github.com/ybiquitous/remark-preset-ybiquitous/compare/v0.4.1...v0.4.2) (2023-10-02)
 
 ### Features
