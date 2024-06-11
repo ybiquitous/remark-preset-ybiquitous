@@ -7,7 +7,8 @@ This package is a personal [remark](https://remark.js.org) preset for [ybiquitou
 
 It includes some lint rules, plugins, and so on. See [`index.js`](./index.js) for details.
 
-Note: This package supports only **ESM**. remark 14+ required.
+> [!NOTE]
+> This package supports only **ESM**. remark 14+ required.
 
 ## Usage
 

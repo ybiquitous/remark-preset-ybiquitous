@@ -7,10 +7,8 @@ import lintFinalNewline from "remark-lint-final-newline";
 import lintFirstHeadingLevel from "remark-lint-first-heading-level";
 import lintHeadingIncrement from "remark-lint-heading-increment";
 import lintLinebreakStyle from "remark-lint-linebreak-style";
-// eslint-disable-next-line import/no-extraneous-dependencies
-import lintListItemBulletIndent from "remark-lint-list-item-bullet-indent";
-// eslint-disable-next-line import/no-extraneous-dependencies
-import lintListItemIndent from "remark-lint-list-item-indent";
+import lintListItemBulletIndent from "remark-lint-list-item-bullet-indent"; // eslint-disable-line import/no-extraneous-dependencies
+import lintListItemIndent from "remark-lint-list-item-indent"; // eslint-disable-line import/no-extraneous-dependencies
 import lintNoConsecutiveBlankLines from "remark-lint-no-consecutive-blank-lines";
 import lintNoDuplicateDefinedUrls from "remark-lint-no-duplicate-defined-urls";
 import lintNoDuplicateHeadings from "remark-lint-no-duplicate-headings";
@@ -30,6 +28,7 @@ import lintNoReferenceLikeUrl from "remark-lint-no-reference-like-url";
 import lintNoShellDollars from "remark-lint-no-shell-dollars";
 import lintNoTableIndentation from "remark-lint-no-table-indentation";
 import lintNoTabs from "remark-lint-no-tabs";
+import lintNoUndefinedReferences from "remark-lint-no-undefined-references"; // eslint-disable-line import/no-extraneous-dependencies
 import lintNoUnneededFullReferenceImage from "remark-lint-no-unneeded-full-reference-image";
 import lintNoUnneededFullReferenceLink from "remark-lint-no-unneeded-full-reference-link";
 import lintStrikethroughMarker from "remark-lint-strikethrough-marker";
@@ -77,6 +76,10 @@ export default {
     lintNoShellDollars,
     lintNoTableIndentation,
     lintNoTabs,
+
+    // Allow Alerts. See https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts
+    [lintNoUndefinedReferences, { allow: [/^!(?:NOTE|TIP|IMPORTANT|WARNING|CAUTION)$/u] }],
+
     lintNoUnneededFullReferenceImage,
     lintNoUnneededFullReferenceLink,
     [lintStrikethroughMarker, "~~"],
