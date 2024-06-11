@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.4.4](https://github.com/ybiquitous/remark-preset-ybiquitous/compare/v0.4.3...v0.4.4) (2024-06-11)
+
+### Features
+
+- allow Alerts in GFM for `remark-lint-no-undefined-references` ([#233](https://github.com/ybiquitous/remark-preset-ybiquitous/issues/233)) ([2bd4676](https://github.com/ybiquitous/remark-preset-ybiquitous/commit/2bd4676d11c9b6d17690735be44db11921fc7ee6))
+
 ### [0.4.3](https://github.com/ybiquitous/remark-preset-ybiquitous/compare/v0.4.2...v0.4.3) (2024-05-01)
 
 ### Features
