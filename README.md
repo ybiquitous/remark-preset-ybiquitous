@@ -18,7 +18,7 @@ First, install the package:
 npm install remark-preset-ybiquitous
 ```
 
-Next, add it to your remark configuration (e.g. `.remarkrc`):
+Next, add it to your remark configuration (e.g. `.remarkrc.json`):
 
 ```json
 {
