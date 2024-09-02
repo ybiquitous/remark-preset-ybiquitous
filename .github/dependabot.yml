@@ -7,7 +7,7 @@ updates:
     versioning-strategy: increase
     open-pull-requests-limit: 20
     groups:
-      development-dependencies:
+      dev-deps:
         dependency-type: development
         exclude-patterns: ["remark-*"]
   - package-ecosystem: github-actions
