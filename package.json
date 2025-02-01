@@ -29,7 +29,7 @@
     "remark-lint-heading-increment": "^4.0.0",
     "remark-lint-linebreak-style": "^4.0.0",
     "remark-lint-no-consecutive-blank-lines": "^5.0.0",
-    "remark-lint-no-duplicate-defined-urls": "^3.0.0",
+    "remark-lint-no-duplicate-defined-urls": "^3.0.1",
     "remark-lint-no-duplicate-headings": "^4.0.1",
     "remark-lint-no-emphasis-as-heading": "^4.0.0",
     "remark-lint-no-empty-url": "^4.0.1",
