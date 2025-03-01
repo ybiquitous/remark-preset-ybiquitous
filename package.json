@@ -47,7 +47,7 @@
     "remark-lint-no-shell-dollars": "^4.0.1",
     "remark-lint-no-table-indentation": "^5.0.1",
     "remark-lint-no-tabs": "^4.0.1",
-    "remark-lint-no-unneeded-full-reference-image": "^4.0.0",
+    "remark-lint-no-unneeded-full-reference-image": "^4.0.1",
     "remark-lint-no-unneeded-full-reference-link": "^4.0.1",
     "remark-lint-strikethrough-marker": "^3.0.1",
     "remark-lint-table-pipes": "^5.0.1",
