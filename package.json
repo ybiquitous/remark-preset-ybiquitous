@@ -55,9 +55,9 @@
     "remark-validate-links": "^13.1.0"
   },
   "devDependencies": {
-    "eslint-config-ybiquitous": "^21.1.0",
+    "eslint-config-ybiquitous": "^22.0.0",
     "remark-cli": "^12.0.0",
-    "ybiq": "^18.0.0"
+    "ybiq": "^18.1.0"
   },
   "scripts": {
     "pretest": "npm run lint",
