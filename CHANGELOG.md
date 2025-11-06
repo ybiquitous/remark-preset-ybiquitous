@@ -1,6 +1,8 @@
-# Changelog
+## [0.5.1](https://github.com/ybiquitous/remark-preset-ybiquitous/compare/v0.5.0...v0.5.1) (2025-11-06)
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+### Bug Fixes
+
+- introduce new release workflow based on pull requests ([#292](https://github.com/ybiquitous/remark-preset-ybiquitous/issues/292)) ([ab127fd](https://github.com/ybiquitous/remark-preset-ybiquitous/commit/ab127fd))
 
 ## [0.5.0](https://github.com/ybiquitous/remark-preset-ybiquitous/compare/v0.4.4...v0.5.0) (2025-09-07)
 

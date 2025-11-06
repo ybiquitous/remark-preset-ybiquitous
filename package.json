@@ -1,6 +1,6 @@
 {
   "name": "remark-preset-ybiquitous",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "Remark preset for ybiquitous",
   "author": "Masafumi Koba",
   "license": "MIT",
@@ -85,12 +85,6 @@
     "*.{js,jsx,cjs,mjs,ts,tsx}": "eslint --cache --fix",
     "!(**/*.snap|.husky/**)": "prettier --cache --write",
     "!(CHANGELOG).md": "remark --frail"
-  },
-  "standard-version": {
-    "sign": true,
-    "scripts": {
-      "postchangelog": "prettier --write CHANGELOG.md"
-    }
   },
   "remarkConfig": {
     "plugins": [
