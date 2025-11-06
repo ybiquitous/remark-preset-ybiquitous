@@ -76,8 +76,9 @@
     "prettier": "prettier --cache .",
     "clean": "git clean -dx --force --exclude=node_modules --exclude=.husky",
     "prerelease": "git switch main && git pull && npm ci && npm run clean && npm test && npm run clean",
-    "release": "standard-version",
-    "release:dry-run": "standard-version --dry-run",
+    "changelog": "if [ ! -f CHANGELOG.md ]; then opts='--first-release' ; fi && conventional-changelog --preset conventional-changelog-conventionalcommits $opts && prettier --write CHANGELOG.md",
+    "changelog:dryrun": "npm version \"${NEW_VERSION:-major}\" --no-git-tag-version && git --no-pager diff CHANGELOG.md && git checkout CHANGELOG.md package.json package-lock.json",
+    "postversion": "npm run changelog",
     "prepare": "husky"
   },
   "lint-staged": {

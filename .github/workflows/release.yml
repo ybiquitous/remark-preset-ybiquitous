@@ -1,12 +1,13 @@
 name: Release
 
 on:
-  push:
-    tags: ["**"]
+  pull_request:
+    branches: [main]
+    types: [closed]
 
 jobs:
   release:
-    uses: ybiquitous/.github/.github/workflows/nodejs-release-reusable.yml@main
+    uses: ybiquitous/.github/.github/workflows/nodejs-release-reusable.yml@87de5ae43f03470d08d6d5d8fa1fb684947c173b # v2.2.1
     permissions:
       contents: write
       id-token: write
