@@ -1,13 +1,8 @@
-## <small>0.5.1 (2025-11-06)</small>
+## [0.5.1](https://github.com/ybiquitous/remark-preset-ybiquitous/compare/v0.5.0...v0.5.1) (2025-11-06)
 
-- fix: introduce new release workflow based on pull requests (#292) ([ab127fd](https://github.com/ybiquitous/remark-preset-ybiquitous/commit/ab127fd)), closes [#292](https://github.com/ybiquitous/remark-preset-ybiquitous/issues/292)
-- build(deps-dev): bump ybiq from 18.1.0 to 19.0.0 in the dev-deps group (#289) ([b55e2ed](https://github.com/ybiquitous/remark-preset-ybiquitous/commit/b55e2ed)), closes [#289](https://github.com/ybiquitous/remark-preset-ybiquitous/issues/289)
-- build(deps-dev): bump ybiq from 19.0.0 to 19.0.1 in the dev-deps group (#291) ([96cfcd5](https://github.com/ybiquitous/remark-preset-ybiquitous/commit/96cfcd5)), closes [#291](https://github.com/ybiquitous/remark-preset-ybiquitous/issues/291)
-- build(deps): bump ybiquitous/npm-audit-fix-action from 7.3.1 to 7.3.2 (#290) ([2e29746](https://github.com/ybiquitous/remark-preset-ybiquitous/commit/2e29746)), closes [#290](https://github.com/ybiquitous/remark-preset-ybiquitous/issues/290)
+### Bug Fixes
 
-# Changelog
-
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+- introduce new release workflow based on pull requests ([#292](https://github.com/ybiquitous/remark-preset-ybiquitous/issues/292)) ([ab127fd](https://github.com/ybiquitous/remark-preset-ybiquitous/commit/ab127fd))
 
 ## [0.5.0](https://github.com/ybiquitous/remark-preset-ybiquitous/compare/v0.4.4...v0.5.0) (2025-09-07)
 
