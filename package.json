@@ -86,12 +86,6 @@
     "!(**/*.snap|.husky/**)": "prettier --cache --write",
     "!(CHANGELOG).md": "remark --frail"
   },
-  "standard-version": {
-    "sign": true,
-    "scripts": {
-      "postchangelog": "prettier --write CHANGELOG.md"
-    }
-  },
   "remarkConfig": {
     "plugins": [
       "./index.js"
