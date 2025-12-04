@@ -7,8 +7,8 @@ import lintFinalNewline from "remark-lint-final-newline";
 import lintFirstHeadingLevel from "remark-lint-first-heading-level";
 import lintHeadingIncrement from "remark-lint-heading-increment";
 import lintLinebreakStyle from "remark-lint-linebreak-style";
-import lintListItemBulletIndent from "remark-lint-list-item-bullet-indent"; // eslint-disable-line import/no-extraneous-dependencies
-import lintListItemIndent from "remark-lint-list-item-indent"; // eslint-disable-line import/no-extraneous-dependencies
+import lintListItemBulletIndent from "remark-lint-list-item-bullet-indent"; // eslint-disable-line n/no-extraneous-import
+import lintListItemIndent from "remark-lint-list-item-indent"; // eslint-disable-line n/no-extraneous-import
 import lintNoConsecutiveBlankLines from "remark-lint-no-consecutive-blank-lines";
 import lintNoDuplicateDefinedUrls from "remark-lint-no-duplicate-defined-urls";
 import lintNoDuplicateHeadings from "remark-lint-no-duplicate-headings";
@@ -28,7 +28,7 @@ import lintNoReferenceLikeUrl from "remark-lint-no-reference-like-url";
 import lintNoShellDollars from "remark-lint-no-shell-dollars";
 import lintNoTableIndentation from "remark-lint-no-table-indentation";
 import lintNoTabs from "remark-lint-no-tabs";
-import lintNoUndefinedReferences from "remark-lint-no-undefined-references"; // eslint-disable-line import/no-extraneous-dependencies
+import lintNoUndefinedReferences from "remark-lint-no-undefined-references"; // eslint-disable-line n/no-extraneous-import
 import lintNoUnneededFullReferenceImage from "remark-lint-no-unneeded-full-reference-image";
 import lintNoUnneededFullReferenceLink from "remark-lint-no-unneeded-full-reference-link";
 import lintStrikethroughMarker from "remark-lint-strikethrough-marker";
