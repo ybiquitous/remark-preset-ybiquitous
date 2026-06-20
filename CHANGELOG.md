@@ -1,3 +1,7 @@
+<!-- lint disable no-duplicate-headings -->
+
+# Changelog
+
 ## [0.5.1](https://github.com/ybiquitous/remark-preset-ybiquitous/compare/v0.5.0...v0.5.1) (2025-11-06)
 
 ### Bug Fixes
