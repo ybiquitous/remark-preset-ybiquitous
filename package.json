@@ -55,10 +55,10 @@
     "remark-validate-links": "^13.1.0"
   },
   "devDependencies": {
-    "eslint": "^10.8.0",
-    "eslint-plugin-n": "^18.2.2",
+    "eslint": "^10.9.1",
+    "eslint-plugin-n": "^18.3.0",
     "remark-cli": "^12.0.0",
-    "ybiq": "^21.0.3"
+    "ybiq": "^22.0.0"
   },
   "scripts": {
     "pretest": "npm run lint",
